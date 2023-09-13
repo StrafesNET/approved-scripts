@@ -1,3 +1,5 @@
 /maps
-/scripts/blocked
+/scripts/extracted
 map-tool
+map-tool-debug
+current.lua
