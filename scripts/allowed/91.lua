@@ -1,0 +1,9 @@
+local Lighting = game:GetService'Lighting'
+Lighting.ClockTime = 4
+Lighting.GeographicLatitude = 0
+Lighting.Ambient = Color3.fromRGB(100, 100, 100)
+Lighting.Brightness = 0.5
+Lighting.EnvironmentDiffuseScale = 1
+Lighting.EnvironmentSpecularScale = 1
+Lighting.GlobalShadows = false
+Lighting.ShadowSoftness = 1
