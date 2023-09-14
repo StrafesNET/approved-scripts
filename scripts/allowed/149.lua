@@ -1,0 +1,1 @@
+game:GetService'Lighting'.Ambient = Color3.new(127/255,127/255,127/255)

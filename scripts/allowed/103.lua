@@ -1,0 +1,9 @@
+local sky=Instance.new("Sky",game:GetService'Lighting')
+sky.SkyboxBk="rbxassetid://3285158104"
+sky.SkyboxDn="rbxassetid://3285158221"
+sky.SkyboxFt="rbxassetid://3285158374"
+sky.SkyboxLf="rbxassetid://3285158622"
+sky.SkyboxRt="rbxassetid://3285158786"
+sky.SkyboxUp="rbxassetid://3285158917"
+sky.SunTextureId=""
+sky.MoonTextureId=""
