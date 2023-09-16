@@ -4,6 +4,7 @@ local fps=20
 local tick=tick
 local tostring=tostring
 local floor=math.floor
+local decal=script.Parent
 game:GetService'RunService'.Stepped:connect(function()
 	decal.Texture="http://www.roblox.com/asset/?id="..tostring(texture_ids[floor(tick()*fps)%num+1])
 end)
