@@ -1,0 +1,1 @@
+~/git/asset-tool/target/release/asset-tool --cookie-env RBXCOOKIE --output maps/unprocessed download "$@"
