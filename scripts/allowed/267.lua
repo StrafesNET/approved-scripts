@@ -1,0 +1,1 @@
+script.Parent.dumb.Transparency = 1

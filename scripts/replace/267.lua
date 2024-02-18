@@ -1,0 +1,1 @@
+game.Workspace.bhop_haarukka.dumb.Transparency = 1
