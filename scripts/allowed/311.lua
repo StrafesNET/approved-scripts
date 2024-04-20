@@ -1,0 +1,10 @@
+local light = game:GetService("Lighting")
+light.OutdoorAmbient = Color3.fromRGB(116, 113, 96)
+light.Ambient = Color3.fromRGB(75, 101, 118)
+light.Brightness = 1
+light.ColorShift_Top = Color3.fromRGB(235, 155, 71)
+light.GeographicLatitude = 13
+light.ClockTime = 12
+light.FogEnd = 100000
+light.FogStart = 0
+light.FogColor = Color3.fromRGB(192,192,192)
