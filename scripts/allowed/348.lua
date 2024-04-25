@@ -1,0 +1,9 @@
+local Lighting = game:GetService'Lighting'
+Lighting.Ambient = Color3.fromRGB(75, 92, 118)
+Lighting.Brightness = 0.75
+Lighting.OutdoorAmbient = Color3.fromRGB(207, 195, 157)
+Lighting.Outlines = false
+Lighting.GlobalShadows = true
+Lighting.FogColor = Color3.fromRGB(192, 192, 192)
+Lighting.FogEnd = 100000
+Lighting.FogStart = 0
