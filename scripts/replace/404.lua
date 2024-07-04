@@ -1,0 +1,9 @@
+game.Lighting.Outlines = false
+game.Lighting.GlobalShadows = false
+game.Lighting.Brightness = 0.6
+game.Lighting.Ambient = Color3.fromRGB(120, 120, 120)
+game.Lighting.OutdoorAmbient = Color3.fromRGB(200, 200, 200)
+game.Lighting.ClockTime = 14
+game.Lighting.FogColor = Color3.fromRGB(59, 58, 59)
+game.Lighting.FogStart = 0
+game.Lighting.FogEnd = 215
