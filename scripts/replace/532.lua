@@ -1,0 +1,5 @@
+local RunService = game:GetService('RunService')
+RunService.Heartbeat:connect(function(step)
+script.Parent.CFrame = CFrame.new(-395.47406, 26.4709835, -680.984131, -0.866025507, -0.129409507, -0.482962728, -2.27671269e-008, 0.965925932, -0.258819044, 0.499999821, -0.224143922, -0.83651638)
+* CFrame.new(0,0,(-(tick()*600)%(10000/2))-(8000/2))
+end)
