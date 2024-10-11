@@ -1,0 +1,1 @@
+script.Parent.Velocity = Vector3.new(12.5,0,0)
