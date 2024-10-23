@@ -1,0 +1,1 @@
+for _,p in next,script.Parent:GetChildren()do if p:IsA('BasePart')then p.Transparency=1;end end
