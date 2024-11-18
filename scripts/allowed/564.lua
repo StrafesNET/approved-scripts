@@ -1,0 +1,1 @@
+script.Parent.AssemblyLinearVelocity = Vector3.new(-3700,0,0)
