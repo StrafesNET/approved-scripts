@@ -15,11 +15,11 @@ end
 script.Parent.DescendantAdded:Connect(AddPart)
 
 local color_targets = {
-	{Color3 = Color3.fromRGB(100.0, 0, 127.5)},
-	{Color3 = Color3.fromRGB(100.0, 255, 0)},
-	{Color3 = Color3.fromRGB(0, 100.0, 56)},
-	{Color3 = Color3.fromRGB(0, 100.0, 255)},
-	{Color3 = Color3.fromRGB(60, 0, 200.0)}
+	{Color3 = Color3.fromRGB(1000, 0, 1275)},
+	{Color3 = Color3.fromRGB(1000, 255, 0)},
+	{Color3 = Color3.fromRGB(0, 1000, 56)},
+	{Color3 = Color3.fromRGB(0, 1000, 255)},
+	{Color3 = Color3.fromRGB(60, 0, 2000)}
 }
 
 local MaximumSteps=#color_targets
