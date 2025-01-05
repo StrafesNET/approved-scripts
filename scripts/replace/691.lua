@@ -1,0 +1,67 @@
+game.Lighting.Outlines = false -- If you want to have outlines, set it as "true"
+game.Lighting.GlobalShadows = false -- If you want to have Dynamic Lighting, set it as "true"
+game.Lighting.Ambient = Color3.new(150/255 , 150/255 , 150/255)
+game.Lighting.OutdoorAmbient = Color3.new(128/255 , 128/255 , 128/255)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- You see this number on the LEFT SIDE? My favorite number (; ~QuarterTerm
