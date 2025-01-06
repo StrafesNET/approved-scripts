@@ -20,12 +20,6 @@ for _, part in script.Parent:GetDescendants() do
 
 		if partInside then
 			partInside.Color = colors[math.random(1, #colors)];
-			--[[
-			partInside.Size.X = part.Size.X;
-			partInside.Size.Y = part.Size.Y - 0.5;
-			partInside.Size.Z = part.Size.Z - 0.5;
-			]]
-
 			if pointLight then
 				pointLight.Color = partInside.Color;
 				pointLight.Range = 10000; -- 225
