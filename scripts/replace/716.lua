@@ -1,0 +1,1 @@
+wait(); game.Lighting.Ambient = Color3.fromRGB(124, 80, 58)
