@@ -51,7 +51,7 @@ local lighting = game:GetService("Lighting")
 local camera = workspace.CurrentCamera
 
 local DefaultLighting = script:WaitForChild'Default'
-local currentLighting = DefaultLighting -- starts on default lighting
+local currentLighting = nil
 
 local params = OverlapParams.new()
 params.FilterType = Enum.RaycastFilterType.Include
@@ -67,11 +67,13 @@ game:GetService("RunService").Heartbeat:Connect(function()
 	end
 
 	if currentLighting ~= newLighting then
-		if currentLighting and newLighting then -- makes sure it exists and there are new effects to change to
+		if currentLighting then
 			for _,effect in lighting:GetChildren() do -- moves the effects FROM lighting TO their folder
 				effect.Parent = currentLighting
 			end
+		end
 
+		if newLighting then
 			for _,effect in newLighting:GetChildren() do -- moves the effects FROM their folder TO lighting
 				effect.Parent = lighting
 			end
