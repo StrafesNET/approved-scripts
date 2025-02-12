@@ -1,0 +1,15 @@
+local lg=game:GetService'Lighting'
+local gr=Color3.fromRGB(127,127,127)
+lg.Ambient=gr
+lg.Brightness=0
+lg.ColorShift_Bottom=Color3.fromRGB(0,0,0)
+lg.ColorShift_Top=Color3.fromRGB(0,0,0)
+lg.GlobalShadows=false
+lg.OutdoorAmbient=gr
+lg.Outlines=true
+lg.ShadowColor=Color3.fromRGB(178,178,183)
+lg.GeographicLatitude=41.733
+lg.TimeOfDay="14:00:00"
+lg.FogColor=Color3.fromRGB(191,191,191)
+lg.FogEnd=100000
+lg.FogStart=0
